@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 import traceback
+import os
 
 app = Flask(__name__)
 
@@ -59,5 +60,6 @@ def predict():
         traceback.print_exc()
         return f"Error occurred: {str(e)}"
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
