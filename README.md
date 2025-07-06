@@ -1,4 +1,8 @@
 🦷 Dental Health Risk Predictor
+Author
+Name: Mohd Ashad
+Roll No: CO22344
+
 
 A Flask-based web app that predicts the risk of dental caries using health checkup features and a trained ML model.
 
@@ -13,6 +17,3 @@ How to Run
 pip install -r requirements.txt
 python app.py
 
-Author
-Name: Mohd Ashad
-Roll No: CO22344
