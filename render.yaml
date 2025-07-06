@@ -1,5 +1,3 @@
-
-```yaml
 services:
   - type: web
     name: dental-health-predictor
